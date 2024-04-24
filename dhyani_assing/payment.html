@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <style>
+    input{
+        width: 60%;
+    }
+    label{
+        font-size: 22px;
+    }
+    input{
+        padding: 5px;
+        font-size: 18px;
+    }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Payment Details</h1>
+      <div class="container">
+        <form name="myForm" class="form" action="#">
+
+            <label for="amount">Amount INR(&#8377) </label><br>
+            <input type="text" id="amount" name="amount" value="1500"><br><br>
+
+            <label for="ccnum">Card Number</label><br>
+            <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444"><br><br>
+
+            <label for="cvv">CVV</label><br>
+            <input type="text" id="cvv" name="cvv" placeholder="352" maxlength="3"><br><br>
+
+            <label for="expdate">Exp Date</label><br>
+            <input type="date" id="expdate" name="date">
+    
+        </form>
+    </div>
+</body>
+</html>
